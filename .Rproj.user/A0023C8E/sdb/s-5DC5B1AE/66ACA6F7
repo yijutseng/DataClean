@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1434600831089.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "66ACA6F7",
+    "lastKnownWriteTime" : 4294967296,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "x1abc0rr2p",
+        "caption" : "Mean_Var",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Mean_Var&cache_key=x1abc0rr2p",
+        "displayedObservations" : "180",
+        "environment" : "",
+        "object" : "Mean_Var",
+        "totalObservations" : "180",
+        "variables" : "81"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

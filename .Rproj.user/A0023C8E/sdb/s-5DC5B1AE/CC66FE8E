@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1434600174566.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CC66FE8E",
+    "lastKnownWriteTime" : 4294901766,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "gglwpxkxg1",
+        "caption" : "Total_MSD",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Total_MSD&cache_key=gglwpxkxg1",
+        "displayedObservations" : "10299",
+        "environment" : "",
+        "object" : "Total_MSD",
+        "totalObservations" : "10299",
+        "variables" : "82"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

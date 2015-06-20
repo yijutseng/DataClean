@@ -1,0 +1,17 @@
+{
+    "contents" : "\ncomplete <- function(directory, id = 1:332) {\n  idList<-c()\n  nobsList<-c()\n  for(i in id){\n    if(i<10){\n      idString<-paste0('00',i)\n    }\n    else if(i<100){\n      idString<-paste0('0',i)\n    }\n    else{\n      idString<-i\n    }\n    fileName<-paste0(directory,'/',idString,'.csv')\n    file<-read.csv(fileName, stringsAsFactors=FALSE)\n    idList<-c(idList,i)\n    nobsList <- c(nobsList,nrow(na.omit(file)))\n  }\n  returnFrame<-data.frame(idList,nobsList)\n  colnames(returnFrame)<-c('id','nobs')\n  returnFrame\n}\n",
+    "created" : 1434727929550.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1056029592",
+    "id" : "EEB0499F",
+    "lastKnownWriteTime" : 1434043358,
+    "path" : "~/GitHub/datasciencecoursera/complete.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
